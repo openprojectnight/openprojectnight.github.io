@@ -113,6 +113,7 @@ header {
 
 .light-card .project-list li {
   list-style-type: none;
+  margin-bottom: 10px;
 }
 
 .content-block {
