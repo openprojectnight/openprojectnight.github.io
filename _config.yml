@@ -1,0 +1,13 @@
+title: Open Project Night
+description: "Learn, Make, & Share!"
+permalink: /posts/:title
+baseurl: ''
+markdown: redcarpet
+exclude: [node_modules, tmp, assets/deps.css]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,167 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #BD412E;
+  font: 18px/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 500;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+a {
+  color: #FFFAF2;
+  text-decoration: none;
+  border-bottom: 4px solid #FFFAF2;
+}
+
+a:hover {
+  
+}
+
+.serif {
+  font-family: Lora, Georgia, serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.site-title {
+  font: 20px Lora, Georgia, serif;
+  font-style: italic;
+}
+
+.page-title {
+  font-size: 100px;
+  letter-spacing: -1px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.light-card {
+  background-color: #FFFAF2;
+  padding: 40px 30px 25px 30px;
+  margin: 30px auto;
+  width: 90%;
+  text-align: center;
+  color: #444;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.light-card hr {
+  border: 0px;
+  border-top: 1px solid #ccc;
+  width: 200px;
+  margin: 30px auto 25px auto;
+}
+
+@media (min-width: 840px) {
+  .light-card {
+    width: 60%;
+  }
+}
+
+.light-card a {
+  color: #DB9E36;
+  text-decoration: none;
+  border-bottom: 3px solid #DB9E36;
+  font-weight: 900;
+}
+
+.light-card a:hover {
+  
+}
+.header-label {
+  margin: 3px 0px;
+  font-family: Lora, Georgia, serif;
+  font-style: italic;
+}
+
+.light-card h2 {
+  color: #105B63;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.light-card .project-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.light-card .project-list li {
+  list-style-type: none;
+}
+
+.content-block {
+  padding: 0px 25px;
+}
+
+.about {
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px 10px;
+}
+
+@media (min-width: 840px) {
+  .container {
+    width: 800px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 1020px) {
+  .container {
+    width: 980px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 1140px) {
+  .container {
+    width: 1100px;
+    margin: 0px auto;
+  }
+}
+
+.container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.container {
+  *zoom: 1;
+}

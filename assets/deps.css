@@ -1,0 +1,28 @@
+@import "normalize.css";
+@import "basscss-grid";
+@import "csskit";
+
+:root {
+  --blue: #105B63;
+}
+
+.button-blue,
+.button-blue:link,
+.button-blue:visited,
+input.button-blue {
+  background-color: color(var(--blue) tint(20%));
+  border: 1px solid color(var(--blue) tint(20%));
+  color: #f2f2f2;
+}
+
+input.button-blue:hover,
+input.button-blue:focus,
+input.button-blue:active,
+.button-blue:hover,
+.button-blue:focus,
+.button-blue:active {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  color: #000;
+  color: #fff;
+}
