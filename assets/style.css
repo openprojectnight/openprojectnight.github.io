@@ -111,9 +111,16 @@ header {
   padding: 0px;
 }
 
+.light-card .project-list h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
 .light-card .project-list li {
   list-style-type: none;
   margin-bottom: 10px;
+  background-color: #efefef;
+  padding: 20px;
 }
 
 .content-block {
