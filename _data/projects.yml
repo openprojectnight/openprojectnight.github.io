@@ -1,0 +1,10 @@
+- name: "Hey Duwamish!"
+  description: "Join <b>Hey Duwamish!</b>, a community of residents and stakeholders who are monitoring the cleanup of toxic waste in Seattle's Duwamish River."
+  url: 'http://heyduwamish.org'
+- name: "Seattle NodeSchool"
+  description: "Learn JavaScript & Node.js through self-guided tutorials completed through the command-line & mentors who can help if you get stuck."
+  url: 'http://nodeschool.io/seattle'
+- name: "Open Seattle"
+  description: "Work on civic technology projects with <b>Open Seattle</b>."
+  url: 'http://openseattle.org'
+  

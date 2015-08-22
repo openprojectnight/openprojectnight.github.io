@@ -53,19 +53,19 @@ header {
 }
 
 .page-title {
-  font-size: 100px;
+  font-size: 40px;
   letter-spacing: -1px;
   color: #fff;
   text-align: center;
   line-height: 1.2;
   margin-bottom: 50px;
+  margin: 0px 10px 50px 10px;
 }
 
 .light-card {
   background-color: #FFFAF2;
   padding: 40px 30px 25px 30px;
   margin: 30px auto;
-  width: 90%;
   text-align: center;
   color: #444;
   box-shadow: 0 2px 4px rgba(0,0,0,0.5);
@@ -94,6 +94,14 @@ header {
 .light-card a:hover {
   
 }
+
+.light-card a span.project-description {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 0px;
+  font-weight: 500;
+}
+
 .header-label {
   margin: 3px 0px;
   font-family: Lora, Georgia, serif;
@@ -118,9 +126,19 @@ header {
 
 .light-card .project-list li {
   list-style-type: none;
+}
+
+.light-card .project-list li a {
   margin-bottom: 10px;
   background-color: #efefef;
   padding: 20px;
+  display: block;
+  border: 1px solid #efefef;
+}
+
+.light-card .project-list li a:hover {
+  background-color: #f3f3f1;
+  border: 1px solid #ccc;
 }
 
 .content-block {
@@ -140,13 +158,16 @@ footer {
 .container {
   width: 100%;
   margin: 0px;
-  padding: 0px 10px;
+  padding: 0px;
 }
 
 @media (min-width: 840px) {
   .container {
     width: 800px;
     margin: 0px auto;
+  }
+  .page-title {
+    font-size: 60px;
   }
 }
 
@@ -155,6 +176,9 @@ footer {
     width: 980px;
     margin: 0px auto;
   }
+  .page-title {
+    font-size: 80px;
+  }
 }
 
 @media (min-width: 1140px) {
@@ -162,6 +186,13 @@ footer {
     width: 1100px;
     margin: 0px auto;
   }
+  .page-title {
+    font-size: 100px;
+  }
+}
+
+.button.large, button.large, input[type="submit"].large, input[type="reset"].large, input[type="button"].large {
+  font-size: 1em;
 }
 
 .container:after {
