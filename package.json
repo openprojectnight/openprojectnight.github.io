@@ -6,7 +6,6 @@
   "scripts": {
     "bundle-css": "cssnext assets/deps.css assets/bundle.css",
     "bundle": "npm run bundle-css",
-    "deploy": "npm run bundle && jekyll build && surge _site openprojectnight.org",
     "start": "jekyll serve -w"
   },
   "repository": {
@@ -24,7 +23,6 @@
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {
-    "cssnext": "^1.8.2",
-    "surge": "^0.14.3"
+    "cssnext": "^1.8.2"
   }
 }
