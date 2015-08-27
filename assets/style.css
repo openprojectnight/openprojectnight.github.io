@@ -114,20 +114,24 @@ header {
   margin-bottom: 15px;
 }
 
+.light-card .list,
 .light-card .project-list {
   margin: 0px;
   padding: 0px;
 }
 
+.light-card .list h3,
 .light-card .project-list h3 {
   font-weight: 500;
   margin-bottom: 10px;
 }
 
+.light-card .list li
 .light-card .project-list li {
   list-style-type: none;
 }
 
+.light-card .list li a
 .light-card .project-list li a {
   margin-bottom: 10px;
   background-color: #efefef;
@@ -136,6 +140,7 @@ header {
   border: 1px solid #efefef;
 }
 
+.light-card .list li a:hover
 .light-card .project-list li a:hover {
   background-color: #f3f3f1;
   border: 1px solid #ccc;
