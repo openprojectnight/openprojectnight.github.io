@@ -4,19 +4,13 @@
 <div class="container">
   <h1 class="page-title">Learn, Make, & Share at Open Project Night.</h1>
   <div class="upcoming-events light-card">
-    <p class="header-label">Make our 2nd event extra special:</p>
-    <h2>September 15 <i>at</i> Impact Hub Seattle</h2>
-    <ul class="project-list">
-      <h3>Some of the activities:</h3>
-      {% for project in site.data.projects %}
-        <li><a href="{{project.url}}" target="_blank"><b>{{project.name}}:</b> <span class="project-description">{{ project.description }}</span></a></li>
+    <p class="header-label">Attend an event!</p>
+    <ul class="list">
+      <h3>Open Project Night locations:</h3>
+      {% for location in site.data.locations %}
+        <li><a href="{{location.url}}" target="_blank"><span class="list-item-description">{{ location.description }}</span></a></li>
       {% endfor %}
     </ul>
-    <hr>
-    <p>Interested in attending and having your organization or project included on this list? Send an email to <b>hi at openseattle.org</b> to let us know!</p>
-    <hr>
-    <p>Tuesday, September 15, 5:30 to 8:30 p.m., at Impact Hub Seattle. <b>Free.</b></p>
-    <p><a href="http://www.meetup.com/openseattle/events/224613879/" class="button button-blue large">RSVP & MORE INFO</a></p>
   </div>
 </div>
 
