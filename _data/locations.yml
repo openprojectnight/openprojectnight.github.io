@@ -1,6 +1,3 @@
 - name: 'Seattle, WA'
   url: 'http://openprojectnight.org/seattle'
   repo: 'http://github.com/openprojectnight/seattle'
-- name: 'Hawaii'
-  url: 'http://openprojectnight.org/hawaii'
-  repo: 'http://github.com/openprojectnight/hawaii'
